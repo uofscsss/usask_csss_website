@@ -25,6 +25,10 @@ div.exec {
 .Bronze {
     background-color: #CD7F32;
 }
+.General {
+    background-color: #000;
+    color: #FFF;
+}
 div.csss_brand {
     float:left;
 }
