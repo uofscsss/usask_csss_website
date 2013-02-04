@@ -60,7 +60,8 @@ $execs = array(
 */
 $column = 1;
 
-echo "<div class='row'>";
+echo "
+<div class='row'><center>";
 foreach($execs as $exec){
       
       echo <<<HERE
@@ -77,6 +78,7 @@ HERE;
       }
 }
 ?>
+</center>
 </div>
 
 <?php
