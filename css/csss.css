@@ -12,3 +12,19 @@ div.exec {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.Platinum {
+    background-color: #E5E4E2;
+}
+.Gold {
+    background-color: #D4AF37;
+}
+.Silver {
+    background-color: #C0C0C0;
+}
+.Bronze {
+    background-color: #CD7F32;
+}
+div.csss_brand {
+    float:left;
+}
