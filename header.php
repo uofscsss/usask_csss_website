@@ -1,8 +1,9 @@
 <?php
   $pages = array(
     'Current Execs',
-    'Library',
-    'Tutors',
+    'Career Fair',
+    //'Library',
+    //'Tutors',
     'http://uofscsss.tumblr.com/'=>'Tumblr',
     'https://twitter.com/UofSCSSS'=>'Twitter'
   );
