@@ -80,7 +80,7 @@ require_once('header.php');
  $padding = '		';
  foreach($event as $line){
  	$line = str_getcsv($line);
- 	$line = array_slice($line, 0, 3);
+ 	$line = array_slice($line, 0, 4);
  	echo "$padding<tr>\n";
  	foreach($line as $td){
  		if(!empty($td))
