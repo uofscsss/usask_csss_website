@@ -11,7 +11,7 @@
 $nav = '';
 foreach($pages as $url=>$page){
   if(!is_string($url)){
-    $url = "$page.php";
+    $url = strtolower(str_replace(' ','-',$page)).'.php';
   }
 
   if(preg_match("/$page/", $_SERVER['PHP_SELF'])){
