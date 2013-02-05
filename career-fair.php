@@ -27,7 +27,7 @@ $navSponsors = '';
 $descriptions = '';
 foreach($sponsorType as $sponsor=>$company){
 	$navSponsors .= "<li class='nav-header'>$sponsor</li>";
-	$descriptions .= "<h1 class='$sponsor'>$sponsor</h1>";
+	$descriptions .= "<h1 class='sponsor-type $sponsor'>$sponsor</h1>";
 	foreach($company as $c){
 		$companyName = $c[0];
 		$companyDesc = $c[1];
