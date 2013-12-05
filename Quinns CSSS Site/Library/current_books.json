@@ -1,0 +1,61 @@
+
+{
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "zUdsPwAACAAJ",
+   "etag": "mq7hCfIL1gc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/zUdsPwAACAAJ",
+   "volumeInfo": {
+    "title": "Computing Essentials 2007, Complete Edition",
+    "authors": [
+     "Timothy O'Leary",
+     "Linda O'Leary"
+    ],
+    "publisher": "Career Education",
+    "publishedDate": "2006-02-16",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0073516678"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780073516677"
+     }
+    ],
+    "pageCount": 560,
+    "printType": "BOOK",
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://bks2.books.google.ca/books?id=zUdsPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://bks2.books.google.ca/books?id=zUdsPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=zUdsPwAACAAJ&dq=isbn:9780073516677&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.ca/books?id=zUdsPwAACAAJ&dq=isbn:9780073516677&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.ca/books/about/Computing_Essentials_2007_Complete_Editi.html?hl=&id=zUdsPwAACAAJ"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=zUdsPwAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE"
+   }
+  }
+ ]
+}
