@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100% width:100%">
+    
+    <head>
+	<meta charset="UTF-8" />
+         
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/Current_Events.css" />
+	<link rel="stylesheet" type="text/css" href="css/fluid_grid.css" />
+	<link rel="stylesheet" type="text/css" href="css/Popup.css" />
+	<script type="text/javascript" src="Javascript/Join_Popup.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'/>
+	
+	<link rel="stylesheet" type="text/css" href="Nav_Bar/css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="Nav_Bar/css/style2.css" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript" src="Nav_Bar/js/jquery.tooltipster.js"></script>
+	<link rel="stylesheet" type="text/css" href="Nav_Bar/css/tooltipster.css" />
+	
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	
+	<style type="text/css">
+	    
+	    img.Sponsor_Logos{opacity:1.0; filter:alpha(opacity=100);}
+	    img.Sponsor_Logos:hover{ opacity:0.6; filter:alpha(opacity=80);}
+	    
+	</style>
+	
+	<title>Current Events!</title>
+	
+    </head>
+    
+    
+    
+    
+    <body>
+	
+	<div class="container_12">
+		<div class=" grid_12 ">
+		    <div class="Join" id="Join_Event">
+			<h1 class="join_form">Halo Registration</h1>
+			
+			
+			<table class="" border="0">
+			    
+			    <tr>
+				
+				<td>
+				    Team Name: 
+				</td>
+				<td>
+				    <input type="text" id="teamName" placeholder="Alpha"/>
+				</td>
+				
+			    </tr>
+			    
+			    <tr>
+				
+				<td>
+				    Name: 
+				</td>
+				<td>
+				    <input type="text" id="name" placeholder="Mickey Mouse"/>
+				</td>
+			    </tr>
+			    
+			</table>
+			
+			<br/>
+			<table class="" border="0">
+			    
+			    <tr>
+				
+				<td colspan="2">
+				    Team Members' Names*
+				</td>
+				
+				
+			    </tr>
+			    
+			    <tr>
+				<td>
+				    <input type="text" id="name1" placeholder="Minnie Mouse"/>
+				</td>
+				<td>
+				    <input type="text" id="name2" placeholder="Donald Duck"/>
+				</td>
+			    </tr>
+			    
+			</table>
+			
+			
+			
+			<br/><br/>
+			<!--<input type="text" id="name" placeholder="Mickey Mouse"/>-->
+			<center><input type="button" onclick="Join()" value="Join"/> <input type="button" onclick="closeWindow()" value="Close Window"/></center>
+			<p class="note">*Leave Blank if you have no team</p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container_12">
+		<div class=" grid_12 ">
+			<!-- Start Slider -->
+	
+			<div style="padding-top: 20px; padding-bottom: 20px">
+				<div id="wowslider-container1">
+					<div class="ws_images">
+						<ul>
+							<li><a href="http://www.facebook.com/uofscsss" target="_blank"><img src="data1/images/Banner4.png" alt="U of S Computer Science Student Society" title="U of S Computer Science Student Society" id="wows1_0"/></a>Join Us on Facebook by clicking on the picture above!</li>
+							<li><a href="http://www.potashcorp.com"><img src="data1/images/Banner6.png" alt="Proud Platinum Sponsor of the CSSS" title="Proud Platinum Sponsor of the CSSS" id="wows1_1"/></a>Potash Corp</li>
+							<li><img src="data1/images/Banner5.png" alt="Computer Science Student Society" title="Computer Science Student Society" id="wows1_2"/>University Of Saskatchewan</li>
+							<li><img src="data1/images/Banner7.jpg" alt="Halo Nights" title="Halo Nights" id="wows1_3"/>We host Halo Nights!</li>
+						</ul>
+					</div>
+					<div class="ws_bullets">
+						<div>
+							<a href="#" title="U of S Computer Science Student Society"><img src="data1/tooltips/Banner4.png" alt="U of S Computer Science Student Society"/>1</a>
+							<a href="#" title="Proud Platinum Sponsor of the CSSS"><img src="data1/tooltips/Banner6.png" alt="Proud Platinum Sponsor of the CSSS"/>2</a>
+							<a href="#" title="Computer Science Student Society"><img src="data1/tooltips/Banner5.png" alt="Computer Science Student Society"/>3</a>
+							<a href="#" title="Halo Nights"><img src="data1/tooltips/Banner7.jpg" alt="Halo Nights"/>4</a>
+						</div>
+					</div>
+					<div class="ws_shadow"></div>
+				</div>
+			</div>
+			
+			<script type="text/javascript" src="engine1/wowslider.js"></script>
+			<script type="text/javascript" src="engine1/script.js"></script>
+			
+			<!-- End Slider -->
+		</div>
+		
+		
+		<div class="grid_12"> <br/> <hr /> <br/> </div>
+		
+		<!-- Start Nav Bar -->
+		<div class="grid_12">
+		    
+			<div class="grid_12 menu_bar" >
+				
+				<div class="grid_2 ">
+					<section id="Home">
+						<ul>
+							<a href="index.html"><span class="tooltip" title="Homepage!">Home</span></a>
+						</ul>
+					</section>
+				</div>
+				
+				
+				<div class="grid_2 ">
+					<section id="Calender">
+						<ul>
+							<a href="Calender.html"><span id="Calender" class="tooltip" title="Event Calender!">Event Calender</span></a>
+						</ul>
+					</section>
+				</div>
+				
+				
+				<div class="grid_2 ">
+					<section id="Current_Executives">
+						<ul>
+							<a href="Current_Execs.html"><span class="tooltip" title="Current_Executives!">Current Execs</span></a>
+						</ul>
+					</section>
+				</div>
+				
+				<div class="grid_2 ">
+					<section id="Career_Fair">
+						<ul>
+							<a href="Career_Fair.html"><span class="tooltip" title="Career Fair!">Career Fair</span></a>
+						</ul>
+					</section>
+				</div>
+				
+				
+				<div class="grid_2 ">
+					<section id="Meeting">
+						<ul>
+							<a href="Meeting_Minutes.html"><span id="Meeting" class="tooltip" title="Meeting Minutes!">Meeting Notes</span></a>
+						</ul>
+					</section>
+				</div>
+				
+				
+				<div class="grid_2 ">
+					<section id="Contact_Us">
+						<ul>
+							<a href="Contact Us.html"><span class="tooltip" title="Contact Us!">Contact Us!</span></a>
+						</ul>	
+					</section>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		<!-- End Nav Bar -->
+		
+		<div class="grid_12"> <br/> <hr /> <br/> </div>
+		
+		<div class="grid_12 padding">
+		
+		    <h1 class="titleFont">Current Events!</h1>
+		
+		</div>
+		
+		<div class="grid_12">
+		    
+		    <div class="sponsor grid_3 font">
+			
+			<h1 class="go_center">Other Events</h1>
+			<h2 class="go_center">Halo Nights!</h2>
+			<img class="sponsors_logo" src="New/Halo_Chief.png"/>
+			<br/>
+			<h2 class="go_center">Smash Bros Tourny!</h2>
+			<img class="sponsors_logo" src="New/Pikachu.png"/>
+			
+		    </div>
+		    
+		    
+		    <div class="grid_6">
+			
+			<div style="position: relative; z-index:-1"><img class="event_panel" src="New/Halo.png"/></div>
+			    
+		    </div>
+		    
+		    <div class="panel_info grid_3">
+			
+			<h1 class="go_center font">Halo Night!</h1>
+			
+			<p>&nbsp&nbsp3rd Floor Spinks</p>
+			<p>&nbsp&nbspNovember 29th, 2013</p>
+			<p>&nbsp&nbsp5:30pm - 12:00am</p>
+			<p>&nbsp&nbsp$5.00 to enter. Paid at the Door</p>
+			<center><input type="button"onclick="openWindow()" value="Join Event"/></center><br/>
+			
+			
+		    </div>
+		
+		    <div class="grid_9"><hr/></div>
+		    
+		    <div class="panel_info grid_3">
+			
+			<h1 class="go_center font">Zu Open House!</h1>
+			
+			<p>&nbsp&nbsp303 Pacific Avenue</p>
+			<p>&nbsp&nbspNovember 21th, 2013</p>
+			<p>&nbsp&nbsp5:30pm - 8:00pm</p>
+			<p>&nbsp&nbspFree Pizza and Beer!</p>
+			
+		    </div>
+		    
+		    <div class="grid_6">
+			
+			<img class="event_panel" src="New/Zu_House.png"/>
+			
+		    </div>
+		    
+		     <div class="grid_9"><hr/></div>
+		    
+		    <div class="grid_6">
+			
+			<img class="event_panel" src="New/magic.jpg"/>
+			
+		    </div>
+		    
+		    <div class="panel_info grid_3">
+			
+			<h1 class="go_center font">Magic the Gathering Tournament!</h1>
+			
+			<p>&nbsp&nbsp3rd Floor Spinks</p>
+			<p>&nbsp&nbspOctober 23th, 2013</p>
+			<p>&nbsp&nbsp6:30pm - 12:00am</p>
+			<p>&nbsp&nbsp$20.00 to enter. Paid at the Door</p>
+			
+		    </div>
+		    
+		    <div class="grid_9"><hr/></div>
+		    
+		</div>
+		
+		
+		
+		<div class=" go_center grid_3">
+				
+			<br/><h2 class="font">Proud Sponsors</h2>
+				
+		</div>
+		
+		
+		
+		<!-- Start Sponsor Bar -->
+		<div class="grid_12 logo_background">
+		
+			
+			<div class="grid_2">
+
+				<a href="http://www.noodlecake.com/" ><img class="sponsors" src="New/noodlecake.png"/></a>
+				
+			</div>
+			
+			<div class="grid_2">
+				
+			    	<a href="http://www.zu.com/company/" ><img class="sponsors" src="New/Zu.png"/></a>
+				
+			</div>
+			
+			<div class="grid_2">
+				
+				<a href="https://www.google.ca/" ><img class="sponsors" src="New/Google.png"/></a>			
+				
+			</div>
+			
+			<div class="grid_2">
+				
+    				<a href="http://www.point2.com/" ><img class="sponsors" src="New/point_2.png"/></a>
+
+			</div>
+			
+			<div class="grid_2">
+				
+				<a href="http://www.arcurve.com/" ><img class="sponsors" src="New/Arcurve.png"/></a>
+				
+			</div>
+			
+			<div class="grid_2">				
+    				
+				<a href="http://www.gbinternetsolutions.com/" ><img class="sponsors" src="New/GB.png"/></a>
+				
+			</div>
+					
+		</div>
+		<!-- End Sponsor Bar -->
+		
+		
+		
+		<div class="clear"></div>
+		<br/><br/> <hr/> <br/><br/>
+
+	</div>
+	
+	
+	
+    </body>
+</html>

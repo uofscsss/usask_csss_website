@@ -1,0 +1,252 @@
+/*============ background ============*/
+
+.company_background
+{
+    background-color:  rgba(0, 0, 0,0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+.background-header
+{
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+}
+
+
+/*============ Text ============*/
+
+.font
+{
+    font-family: Helvetica, Sans-Serif;
+    color: black;
+}
+
+.titleFont
+{
+    font-family: 'Wellfleet', cursive;
+    color: rgb(23, 255, 6);
+}
+
+p.paragraph
+{
+    text-align:justify;
+}
+
+p.paragraph2
+{
+    text-align:justify;
+    color: black;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+td.paragraph
+{
+    text-align:justify;
+    font-family: Helvetica, Sans-Serif;
+}
+
+tr
+{
+    font-family: Helvetica, Sans-Serif;
+}
+
+tr.tableHeader
+{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Platinum
+{
+    color: rgb(168, 168, 168);
+}
+
+.Gold
+{
+    color: rgb(255, 223, 0);
+}
+
+.Silver
+{
+    color: rgb(192, 192, 192);
+}
+
+.Bronze
+{
+    color: rgb(205, 127, 50);
+}
+
+
+.odd{
+    color: rgb(23, 255, 6);
+    text-shadow: 1px 1px rgb(255, 253, 242);
+    
+}
+
+.even
+{
+    color: rgb(255, 253, 242);
+    margin-left: 35px;
+    text-shadow: 1px 2px rgb(23, 255, 6);
+}
+
+.student_header
+{
+    color: rgb(23, 255, 6);
+    margin-left: 35px;
+    text-shadow: 1px 1px rgb(255, 253, 242);
+}
+
+.header 
+{
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(23, 255, 6, 0.5);
+	
+}
+
+
+.header:after 
+{
+	content: "CSSS";
+	position: absolute; left: 25px; top: 5px;
+	color: rgba(255, 253, 242, 0.5);
+	
+	
+}
+
+.main
+{
+    font-size:150%;
+    color: red;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.main2
+{
+    font-size:120%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.green
+{
+    color: rgb(23, 255, 6);
+}
+
+.littleHeader
+{
+    text-align:  left;
+    margin-top: -10px;
+    padding-left: 27px;
+    color: white;
+    font: 25px Helvetica, Sans-Serif;
+}
+
+.go_center
+{
+    text-align: center;
+}
+
+/*============ Images ============*/
+
+.pizza
+{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img.uofscenter
+{
+    padding: 20px;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*============ Event Schedule ============*/
+table
+{
+    width: 700px;
+    height: 600px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+tr.row:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+#panel, #panel2, #panel3, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11
+{
+    padding:50px;
+    display:none;
+}
+
+#panel4
+{
+    padding: 10px;
+    display: none;
+}
+
+#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9, #flip10, #flip11
+{
+    cursor: pointer;
+}
+
+/*============ Menu Panel ============*/
+.menu
+{
+    width:100%;
+    height: 600px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 25px;
+   
+}
+
+.menu_panel
+{
+    padding-left: 15px;
+    color: black;
+    font-size: 40px;
+}
+
+.bar_sponsor
+{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    color: black;
+}
+
+dt
+{
+    color: red;
+    font: bold;
+}
+
+a.menu_links
+{
+    text-decoration: none;
+}
+
+a.menu_links:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+a.menu_links:visited
+{
+    text-decoration: none;
+  
+}
