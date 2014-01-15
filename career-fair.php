@@ -91,8 +91,6 @@ require_once('header.php');
 
 ?>
 		</table>
-        <h3>Pizza lunch provided by:</h3>
-        <img src='img/pizza-pirates.png'></img>
 		<?php echo $descriptions;?>
 	</div>
 </div>
